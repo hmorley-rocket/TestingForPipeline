@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<script defer type="module" charset="utf-8" src="index.js"></script>
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<body>
+    <div id="topBar">
+        <h1 id="TBTitle">Rocket Retail</h1>
+        <h1 id="icon">🚀</h1>
+        <h3 id="TBsubTitle">Houston, we have a bargain!</h3>
+
+    </div>
+    <div id="List-Container">
+
+    </div>
+</body>
+
+<template id="ListItem-Template">
+    <section id="ListItem">
+        <div class="ListItem-Container">
+            <h1 class="itemName">&NAME&</h1>
+            <div class="descTitle">Description: <p class="itemDesc">&DESC&</p></div>
+            <div class="priceTitle">Price: £<p class="itemPrice">&PRICE&</p></div>
+            <div class="stockTitle">Stock Count: <p class="itemStock">&STOCK&</div>
+        </div>
+    </section>
+</template>

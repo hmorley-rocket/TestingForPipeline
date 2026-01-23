@@ -1,0 +1,62 @@
+:root{
+    padding: 0;
+    margin: 0;
+}
+
+#topBar{
+    display: grid;
+    border-bottom: solid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#TBTitle{
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+}
+
+#TBsubTitle{
+    margin: 0 0 0.5rem;
+}
+
+#icon{
+    text-align: right;
+    margin-bottom: 0;
+}
+
+#List-Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ListItem-Container{
+    display: grid;
+    grid-template-areas: "title title"
+                         "desc  dvalue"
+                         "price pbalue"
+                         "stock svalue";
+    grid-template-columns: 1fr 1fr;
+    padding:0.5rem;
+}
+
+.itemName{
+    grid-area: title;
+}
+
+.descTitle{
+    display: ruby;
+}
+
+.priceTitle{
+    display: ruby;
+}
+
+.stockTitle{
+    display: ruby;
+}
+
+#ListItem{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid;
+    border-radius: 1rem;
+}

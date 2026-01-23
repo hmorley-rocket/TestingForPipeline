@@ -1,0 +1,18 @@
+{
+    "name": "coboljsondemo",
+    "version": "1.0.0",
+    "description": "A store front web app that reads a JSON file managed by a native COBOL application",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "run": "node webServer.js",
+        "test": "node --watch webServer.js",
+        "start": "node --watch webServer.js"
+    },
+    "author": "Harrison Morley",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "utf8": "^3.0.0"
+    }
+}
