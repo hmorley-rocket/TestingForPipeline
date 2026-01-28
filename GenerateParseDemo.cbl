@@ -52,6 +52,7 @@
        procedure division.
            perform read-json-file
            display "Welcome to your store manager"
+           display "HELLO WORLD"
            perform until is-quit
                perform display-menu
                evaluate true
